@@ -8,7 +8,7 @@ public class LambdaExpressionExample5{
         list.add("irfan");  
         list.add("jai");  
           
-        list.forEach(  
+        list.forEach(
             (n)->System.out.println(n)  
         );  
     }  
